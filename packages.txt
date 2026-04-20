@@ -1,1 +1,0 @@
-npm i @google/genai @imagekit/nodejs bcryptjs cookie-parser dotenv express jsonwebtoken mongoose multer uuid
