@@ -77,14 +77,15 @@ A Node.js backend service for generating engaging social media captions using AI
 - `POST /api/ai/caption` — Generate a caption for a post
 
 ## Environment Variables
-See `.env.example` for all required environment variables.
+Copy `.env.example` to `.env` and fill in your credentials:
 
-## Example .env
 ```
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/social-media-caption
+MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-AI_API_KEY=your_ai_api_key
+GEMINI_API_KEY=your_gemini_api_key
+IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
+IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
+IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
 ```
 
 ## Contributing
